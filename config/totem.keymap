@@ -42,7 +42,7 @@ label= "BASE"                              ;
                 &kp Q       &kp W       &kp F       &kp P       &kp B           &kp J       &kp L       &kp U       &kp Y       &kp SQT
                 &mt LGUI A  &mt LALT R  &mt LCTRL S &mt LSHFT T &kp G           &kp M       &mt RSHFT N &mt RCTRL E &mt RALT I  &mt RGUI O
     &kp Z       &kp Z       &kp X       &kp C       &kp D       &kp V           &kp K       &kp H       &kp COMMA   &kp DOT     &kp FSLH    &kp FSLH
-                                        &kp ESC     &lt NAV SPACE   &kp TAB     &lt SYM RET &lt NUM BSPC    &lt BT DEL
+                                        &lt BT ESC     &lt NAV SPACE   &kp TAB     &lt SYM RET &lt NUM BSPC    &lt BT DEL
                         >;
                 };
 
@@ -101,7 +101,7 @@ label= "BT"                               ;
 
                 &none       &none       &none       &none       &none           &none        &none       &none       &none       &none
                 &none       &bt BT_SEL 3       &bt BT_SEL 4       &none       &none           &none        &none       &none       &none       &none&none  
-    &none       &none       &bt BT_SEL 0       &bt BT_SEL 1       &bt BT_SEL 2       &none           &bt BT_CLR   &none       &none       &none       &none       &bt BT_CLR_ALL
+    &bt BT_CLR_ALL       &none       &bt BT_SEL 0       &bt BT_SEL 1       &bt BT_SEL 2       &none           &bt BT_CLR   &none       &none       &none       &none       &bt BT_CLR_ALL
                                         &none       &none       &none           &none        &none       &none      
                         >;
                 };
